@@ -74,15 +74,28 @@ A two-part project that:
 
 1. Open `Wokwi/wokwi-project.txt` and follow the URL to load the project in Wokwi.  
 2. Verify that `diagram.json` renders your ESP32 board with all peripherals.  
-3. In the Wokwi editor, copy `Wokwi/sketch.ino` into the Arduino sketch pane.  
-4. Ensure the libraries listed in `Wokwi/libraries.txt` are enabled:
+3. In the Wokwi editor, copy `Wokwi/sketch.ino` into the Arduino sketch pane.
+4. **Fill in your credentials**: open `sketch.ino` and replace these placeholders with your values  
+   ```cpp
+   // WiFi Credentials
+   const char* ssid = "WiFi_SSID";
+   const char* password = "WiFi_Password";
+   const char* thingSpeakApiKey = "ThingSpeak_API_Key";
+    
+   // Twilio Credentials
+   const char* accountSid = "Twilio_Account_SID";
+   const char* authToken  = "Twilio_Authentication_Token"; 
+   const char* twilioNumber = "Sender_Number";
+   const char* destinationNumber = "Destination_Number";
+   ```
+5. Ensure the libraries listed in `Wokwi/libraries.txt` are enabled:
    - Adafruit GFX  
    - Adafruit SSD1306  
    - Adafruit MPU6050  
    - Adafruit Sensor Lab & Calibration  
    - WiFi & HttpClient  
    - Pushbutton  
-5. Click **“Play”** to start simulation. Observe sensor readings on the OLED and test button/buzzer behavior.
+6. Click **“Play”** to start simulation. Observe sensor readings on the OLED and test button/buzzer behavior.
 
 ### 2. Python Drowsiness Detector
 
