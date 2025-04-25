@@ -18,15 +18,15 @@ Adafruit_SSD1306 oled(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 Adafruit_MPU6050 mpu;
 
 // WiFi Credentials
-const char* ssid = "Wokwi-GUEST";
-const char* password = "";
-const char* thingSpeakApiKey = "OVXZPKJJZ1DU9U62";
+const char* ssid = "WiFi_SSID";
+const char* password = "WiFi_Password";
+const char* thingSpeakApiKey = "ThingSpeak_API_Key";
 
 // Twilio Credentials
-const char* accountSid = "AC3c813e8d880d0280029f10ed31030ead";
-const char* authToken  = "f9b8077bce87558975c6f589c9e6dbac"; 
-const char* twilioNumber = "+18445412757";
-const char* destinationNumber = "+18777804236";
+const char* accountSid = "Twilio_Account_SID";
+const char* authToken  = "Twilio_Authentication_Token"; 
+const char* twilioNumber = "Sender_Number";
+const char* destinationNumber = "Destination_Number";
 
 // Sensor Pins
 const int seatbeltSwitch = 2;   // Seatbelt Switch
