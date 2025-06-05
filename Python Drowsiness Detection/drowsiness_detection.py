@@ -91,7 +91,7 @@ while True:
     
     cv2.imshow("Frame", frame)
     
-    # Press 'q' to quit the video stream
+    # Press 'Q' to quit the video stream
     if cv2.waitKey(1) & 0xFF == ord("q"):
         break
 
