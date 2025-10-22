@@ -144,4 +144,9 @@ This project is licensed under the [MIT License](LICENSE).
 **Siddhesh Save**  
 - GitHub: [@Siddhesh51099](https://github.com/Siddhesh51099)  
 - Syracuse University, M.S. Computer Science (’25)  
-- Email: siddheshsave99@gmail.com  
+- Email: siddheshsave99@gmail.com
+
+**Sahana Narasipura Vasudevarao**
+--Github [@nvsahana](https://github.com/nvsahana)
+-- Syracuse University, M.S. Computer Science ('25)
+-- Email: snarsipu@outlook.com
